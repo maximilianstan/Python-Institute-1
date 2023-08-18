@@ -9,7 +9,7 @@ even_numbers = 0
 number = int(input("Enter a number or type 0 to stop: "))
 
 # 0 terminates execution.
-while number :
+while number:
     # Check if the number is odd.
     if number % 2 == 1:
         # Increase the odd_numbers counter.
