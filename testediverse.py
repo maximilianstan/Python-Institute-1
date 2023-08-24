@@ -22,3 +22,9 @@ for a in range(1,6):
     print(a,"Mississippi")
     time.sleep(1)
 print("Ready or not, here I come!")
+
+while True:
+    secret = input("Enter the secret exit word: ")
+    if secret == "chupacabra":
+        break
+print("You've successfully left the loop. ")
