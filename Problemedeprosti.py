@@ -1,7 +1,9 @@
-a = int(input("Insert first number: "))
-b = int(input("Insert second number: "))
-if a * b <= 1000:
-    print(a * b)
-else:
-    print(a + b)
+count = -453452
+while count < 3:
+    print("Count:", count)
+    count += 1
 
+user_input = input("Enter 'yes' to continue: ")
+while user_input != 'yes':
+    user_input = input("Enter 'yes' to continue: ")
+print("You may proceed.")

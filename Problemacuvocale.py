@@ -8,3 +8,8 @@ for letter in userWord:
     wordWithoutVovels = wordWithoutVovels + letter
 
 print(wordWithoutVovels)
+
+
+fruits = ['apple\n', 'banana\n', 'cherry\n', 'grape']
+for fruit in fruits:
+    print(fruit)
