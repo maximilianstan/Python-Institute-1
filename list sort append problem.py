@@ -23,3 +23,11 @@ for element in my_list:
 print("The list with unique elements only:")
 print(my_list)
 print(newlist)
+
+
+my_list = [1, 2, "in", True, "ABC"]
+
+print(1 in my_list)  # outputs True
+print("A" not in my_list)  # outputs True
+print(3 not in my_list)  # outputs True
+print(False in my_list)  # outputs False
