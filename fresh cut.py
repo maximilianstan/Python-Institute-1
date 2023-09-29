@@ -51,11 +51,27 @@ def introduction(first_name, last_name):
     print("Hello, my name is", first_name, last_name)
 
 
-introduction(first_name="James", last_name="Bond")
-introduction(last_name="Skywalker", first_name="Luke")
+introduction(first_name = "James", last_name = "Bond")
+introduction(last_name = "Skywalker", first_name = "Luke")
 
 def adding(a, b, c):
     print(a, "+", b, "+", c, "=", a + b + c)
 
 # Call the adding function here.
 adding(1, 2, 3)
+
+def hi_all(name_1, name_2):
+    print("Hi,", name_2)
+    print("Hi,", name_1)
+
+hi_all("Sebastian", "Konrad")
+
+def address(street, city, postal_code):
+    print("Your address is:", street, "St.,", city, postal_code)
+
+s = input("Street: ")
+p_c = input("Postal Code: ")
+c = input("City: ")
+
+address(s, c, p_c)
+
