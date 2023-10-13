@@ -23,3 +23,11 @@ dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
 
 for key in dictionary.keys():
     print(key, "->", dictionary[key])
+
+for key in sorted(dictionary.keys()):
+    print(key, "->", dictionary[key])
+
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+for english, french in dictionary.items():
+    print(english, "->", french)
